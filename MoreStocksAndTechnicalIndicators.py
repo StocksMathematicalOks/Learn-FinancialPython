@@ -2,7 +2,7 @@ import pandas as pd
 from alpha_vantage.timeseries import TimeSeries
 from alpha_vantage.techindicators import TechIndicators
 import matplotlib.pyplot as plt
-api_key = '2e93e80978msh23d6c665badd948p1572d7jsn5'
+api_key = 'your-key'
 varsymbol = 'JPM'
 ts = TimeSeries(key=api_key, output_format='pandas')
 ti = TechIndicators(key=api_key, output_format='pandas')
