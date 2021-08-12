@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from pandas import DataFrame, Series
 import datetime
 varsymbol = 'VOO'
-api_key = '2e93e80978msh23d6c665badd948p1572d7jsn5'
+api_key = 'your-key'
 x1 = [datetime.date(2010, 11, 13), datetime.date(2021, 7, 15)]
 y1 = [95, 370]
 x2 = [datetime.date(2010, 11, 13), datetime.date(2021, 7, 15)]
